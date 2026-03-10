@@ -8,7 +8,7 @@ import { Inbox } from 'lucide-react';
 export const TodoList = ({ todos, onToggle, onDelete, onEdit }) => {
     if (todos.length === 0) {
         return (
-            <div className="flex flex-col items-center justify-center py-12 px-4 rounded-3xl border border-dashed border-muted-foreground/20 bg-muted/5 animate-in fade-in zoom-in duration-500">
+            <div className="flex flex-col items-center justify-center py-12 px-4 rounded-3xl border border-dashed border-muted-foreground/20 bg-muted/5">
                 <div className="bg-background p-4 rounded-full shadow-inner mb-4">
                     <Inbox className="size-8 text-muted-foreground/40" />
                 </div>
@@ -27,7 +27,7 @@ export const TodoList = ({ todos, onToggle, onDelete, onEdit }) => {
     });
 
     return (
-        <div className="flex flex-col gap-3 animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="flex flex-col gap-3">
             {sortedTodos.map((todo) => (
                 <TodoItem
                     key={todo.id}
