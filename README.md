@@ -45,10 +45,20 @@ Focus Flow is a high-performance, minimalist Todo List application built with a 
 
 4. Open your browser and navigate to `http://localhost:5173`.
 
+## 🚀 Deployment
+
+The project is configured for seamless deployment to **GitHub Pages** using GitHub Actions.
+
+1.  Push your changes to the `main` branch.
+2.  Go to your GitHub Repository **Settings** > **Pages**.
+3.  Under **Build and deployment** > **Source**, select **GitHub Actions**.
+4.  Your site will automatically build and deploy at `https://<your-username>.github.io/todo-list/`.
+
+## 🧠 Core Logic & Implementation
+
 ## 🏗️ Project Structure
 
 - `src/components/`: Reusable UI components.
 - `src/hooks/`: Custom React hooks (including `useTodos`).
 - `src/utils/`: General utility functions (persistence logic).
 - `src/lib/`: Library configurations and shared utilities (`cn`).
-
