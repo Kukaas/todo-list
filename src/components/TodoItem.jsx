@@ -10,24 +10,24 @@ import { cn } from '@/lib/utils';
 export const TodoItem = ({ todo, onToggle, onDelete, onEdit }) => {
     return (
         <div className={cn(
-            "group flex items-center justify-between p-4 rounded-2xl border bg-card/40 backdrop-blur-md transition-all duration-300 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-0.5",
+            "group flex items-center justify-between p-4 rounded-2xl border bg-card/40 backdrop-blur-md",
             todo.completed ? "border-muted bg-muted/20 opacity-70" : "border-border/50"
         )}>
             <div className="flex items-center gap-4 flex-1 min-w-0">
                 <Checkbox
                     checked={todo.completed}
                     onCheckedChange={() => onToggle(todo.id)}
-                    className="size-5 rounded-md border-muted-foreground/30 data-[state=checked]:bg-primary data-[state=checked]:border-primary transition-colors"
+                    className="size-5 rounded-md border-muted-foreground/30 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
                 />
                 <span className={cn(
-                    "text-sm font-medium transition-all duration-500 truncate",
+                    "text-sm font-medium truncate",
                     todo.completed && "line-through text-muted-foreground decoration-primary/50"
                 )}>
                     {todo.text}
                 </span>
             </div>
 
-            <div className="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <div className="flex items-center gap-1.5 opacity-0 group-hover:opacity-100">
                 <Button
                     variant="ghost"
                     size="icon-xs"
