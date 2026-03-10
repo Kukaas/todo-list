@@ -8,11 +8,11 @@
 - [x] Set up project folder structure (`src/components`, `src/hooks`, `src/utils`, `src/ui`)
 
 ## Phase 2: Core Utilities & State Management
-- [ ] Create `src/utils/localStorage.js` (load/save functions)
-- [ ] Implement `src/hooks/useTodos.js` hook:
-    - Define state for todos
-    - Implement `addTodo`, `editTodo`, `deleteTodo`, `toggleTodo`
-    - Add `useEffect` for persistence
+- [x] Create `src/utils/localStorage.js` (load/save functions)
+- [x] Implement `src/hooks/useTodos.js` hook:
+    - [x] Define state for todos
+    - [x] Implement `addTodo`, `editTodo`, `deleteTodo`, `toggleTodo`
+    - [x] Add `useEffect` for persistence
 
 ## Phase 3: UI Components Development
 - [ ] Implement `TodoInput.jsx` (Add task UI)
