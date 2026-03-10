@@ -15,10 +15,10 @@
     - [x] Add `useEffect` for persistence
 
 ## Phase 3: UI Components Development
-- [ ] Implement `TodoInput.jsx` (Add task UI)
-- [ ] Implement `TodoItem.jsx` (Individual task with actions)
-- [ ] Implement `TodoList.jsx` (List container with sorting logic)
-- [ ] Implement `EditTaskDialog.jsx` (Modal for editing tasks)
+- [x] Implement `TodoInput.jsx` (Add task UI)
+- [x] Implement `TodoItem.jsx` (Individual task with actions)
+- [x] Implement `TodoList.jsx` (List container with sorting logic)
+- [x] Implement `EditTaskDialog.jsx` (Modal for editing tasks)
 
 ## Phase 4: Application Assembly & Integration
 - [ ] Integrate all components in `App.jsx`
