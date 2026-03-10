@@ -1,16 +1,54 @@
-# React + Vite
+# Focus Flow - Todo List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Focus Flow is a high-performance, minimalist Todo List application built with a modern React stack. It features a premium glassmorphism design and provides a snappy, distraction-free interface for managing your daily tasks.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Intuitive Task Management**: Create, toggle, edit, and delete tasks with ease.
+- **Local Persistence**: Your tasks are automatically saved to your browser's local storage, ensuring they persist across sessions.
+- **Premium Minimalist UI**: A clean, responsive design built with Tailwind CSS v4 and shadcn/ui.
+- **Focus-Centric**: Designed to keep your current tasks front and center.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 7](https://vite.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) (Base UI)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: [Geist Variable](https://vercel.com/font)
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kukaas/todo-list.git
+   cd todo-list
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`.
+
+## 🏗️ Project Structure
+
+- `src/components/`: Reusable UI components.
+- `src/hooks/`: Custom React hooks (including `useTodos`).
+- `src/utils/`: General utility functions (persistence logic).
+- `src/lib/`: Library configurations and shared utilities (`cn`).
+
